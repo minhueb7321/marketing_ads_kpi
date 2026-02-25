@@ -25,19 +25,19 @@ using data-driven insights.
 
 ### Channels:
 
--   Facebook\
--   Google Ads\
--   Instagram\
--   LinkedIn\
--   Twitter\
+-   Facebook
+-   Google Ads
+-   Instagram
+-   LinkedIn
+-   Twitter
 -   Website
 
 ### Campaigns:
 
--   Flash Sale\
--   New Arrivals\
--   Limited Edition\
--   Trending Now\
+-   Flash Sale
+-   New Arrivals
+-   Limited Edition
+-   Trending Now
 -   Best Sellers
 
 ------------------------------------------------------------------------
@@ -50,13 +50,13 @@ using data-driven insights.
 
 ### Engagement
 
--   Clicks\
+-   Clicks
 -   CTR
 
 ### Acquisition
 
--   CPC\
--   CPA\
+-   CPC
+-   CPA
 -   Conversion
 
 ### Revenue
@@ -65,8 +65,8 @@ using data-driven insights.
 
 ### Profitability
 
--   ROI\
--   ROAS\
+-   ROI
+-   ROAS
 -   Profit Margin
 
 ------------------------------------------------------------------------
@@ -124,14 +124,6 @@ By completing this project, you will be able to:
 -   Design a KPI-driven dashboard
 -   Make budget allocation decisions based on ROAS & ROI
 -   Think like a Performance Marketing Analyst
-
-------------------------------------------------------------------------
-
-## 🚀 Project Structure
-
-media-marketing-analytics/ │ ├── data/ │ └── media_dataset.csv │ ├──
-notebooks/ │ └── EDA_analysis.ipynb │ ├── sql/ │ └── kpi_queries.sql │
-├── dashboard/ │ └── marketing_dashboard.pbix │ └── README.md
 
 ------------------------------------------------------------------------
 
