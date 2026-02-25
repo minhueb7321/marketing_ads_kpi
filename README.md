@@ -1,118 +1,141 @@
-📊 Media Dataset – Multi-Channel Marketing Analytics Project
-📌 Overview
+# 📊 Media Dataset -- Multi-Channel Marketing Analytics Project
 
-Are you sure which marketing channel is truly generating profit — and which one is silently burning your budget?
+## 📌 Overview
 
-Without clearly tracking CTR, CPC, ROAS, ROI, your advertising spend may not be optimized.
+Are you sure which marketing channel is truly generating profit --- and
+which one is silently burning your budget?
 
-This project uses a Media Dataset simulating real-world multi-channel advertising performance, covering the full funnel from Impressions → Clicks → Conversions → Revenue → Profitability.
+Without clearly tracking CTR, CPC, ROAS, ROI, your advertising spend may
+not be optimized.
 
-The goal is to analyze, benchmark, and optimize marketing performance using data-driven insights.
+This project uses a Media Dataset simulating real-world multi-channel
+advertising performance, covering the full funnel from:
 
-📂 Dataset Information
+Impressions → Clicks → Conversions → Revenue → Profitability
 
-Time Period: 2023 – 2024
+The goal is to analyze, benchmark, and optimize marketing performance
+using data-driven insights.
 
-Size: 10,000+ advertising records
+------------------------------------------------------------------------
 
-Channels:
+## 📂 Dataset Information
 
-Facebook
+-   **Time Period:** 2023 -- 2024\
+-   **Size:** 10,000+ advertising records
 
-Google Ads
+### Channels:
 
-Instagram
+-   Facebook\
+-   Google Ads\
+-   Instagram\
+-   LinkedIn\
+-   Twitter\
+-   Website
 
-LinkedIn
+### Campaigns:
 
-Twitter
+-   Flash Sale\
+-   New Arrivals\
+-   Limited Edition\
+-   Trending Now\
+-   Best Sellers
 
-Website
+------------------------------------------------------------------------
 
-Campaigns:
+## 📊 Available Metrics
 
-Flash Sale
+### Awareness
 
-New Arrivals
+-   Impressions
 
-Limited Edition
+### Engagement
 
-Trending Now
+-   Clicks\
+-   CTR
 
-Best Sellers
+### Acquisition
 
-📊 Available Metrics
-Funnel Stage	Metrics
-Awareness	Impressions
-Engagement	Clicks, CTR
-Acquisition	CPC, CPA, Conversion
-Revenue	Revenue
-Profitability	ROI, ROAS, Profit Margin
-🎯 Project Objectives
-1️⃣ Channel Performance Analysis
+-   CPC\
+-   CPA\
+-   Conversion
 
-Compare CTR, CPC, CPA, Conversion Rate across channels.
+### Revenue
 
-Identify the most cost-effective and high-performing channel.
+-   Revenue
 
-Benchmark advertising efficiency.
+### Profitability
 
-2️⃣ Campaign Effectiveness
+-   ROI\
+-   ROAS\
+-   Profit Margin
 
-Evaluate performance of each campaign.
+------------------------------------------------------------------------
 
-Identify:
+## 🎯 Project Objectives
 
-Highest Revenue campaign
+### 1️⃣ Channel Performance Analysis
 
-Highest ROAS campaign
+-   Compare CTR, CPC, CPA, Conversion Rate across channels.
+-   Identify the most cost-effective and high-performing channel.
+-   Benchmark advertising efficiency.
 
-Highest ROI campaign
+### 2️⃣ Campaign Effectiveness
 
-Detect underperforming campaigns for optimization.
+-   Evaluate performance of each campaign.
+-   Identify:
+    -   Highest Revenue campaign
+    -   Highest ROAS campaign
+    -   Highest ROI campaign
+-   Detect underperforming campaigns for optimization.
 
-3️⃣ User Behavior Insights
+### 3️⃣ User Behavior Insights
 
-Analyze performance by:
+-   Analyze performance by:
+    -   Day / Week (identify peak time slots)
+    -   Device (Mobile vs Desktop)
+    -   Region (if available)
+-   Validate behavioral assumptions (e.g., Is mobile outperforming
+    desktop?)
 
-Day / Week (identify peak time slots)
+### 4️⃣ Profitability & Budget Optimization
 
-Device (Mobile vs Desktop)
+-   Track Profit Margin, ROAS, ROI over time
+-   Provide data-driven recommendations:
+    -   Increase budget on high-ROAS channels
+    -   Reduce spending on low-ROI campaigns
+    -   Optimize bidding strategy
 
-Region (if available)
+------------------------------------------------------------------------
 
-Validate behavioral assumptions (e.g., Is mobile outperforming desktop?)
+## 🛠 Tools & Technologies
 
-4️⃣ Profitability & Budget Optimization
+-   SQL (Data Cleaning & KPI Calculation)
+-   Python / Pandas (Exploratory Data Analysis)
+-   Power BI / Tableau (Dashboard & Visualization)
+-   Excel (Quick KPI validation)
 
-Track Profit Margin, ROAS, ROI over time
+------------------------------------------------------------------------
 
-Provide data-driven recommendations:
-
-Increase budget on high-ROAS channels
-
-Reduce spending on low-ROI campaigns
-
-Optimize bidding strategy
-
-🛠 Tools & Technologies
-
-SQL (Data Cleaning & KPI Calculation)
-
-Python / Pandas (Exploratory Data Analysis)
-
-Power BI / Tableau (Dashboard & Visualization)
-
-Excel (Quick KPI validation)
-
-📈 Expected Outcomes
+## 📈 Expected Outcomes
 
 By completing this project, you will be able to:
 
-Understand full-funnel marketing analytics
+-   Understand full-funnel marketing analytics
+-   Design a KPI-driven dashboard
+-   Make budget allocation decisions based on ROAS & ROI
+-   Think like a Performance Marketing Analyst
 
-Design a KPI-driven dashboard
+------------------------------------------------------------------------
 
-Make budget allocation decisions based on ROAS & ROI
+## 🚀 Project Structure
 
-Think like a Performance Marketing Analyst
+media-marketing-analytics/ │ ├── data/ │ └── media_dataset.csv │ ├──
+notebooks/ │ └── EDA_analysis.ipynb │ ├── sql/ │ └── kpi_queries.sql │
+├── dashboard/ │ └── marketing_dashboard.pbix │ └── README.md
+
+------------------------------------------------------------------------
+
+## 💡 Key Business Question
+
+Which channel and campaign should receive more budget to maximize
+profitability?
